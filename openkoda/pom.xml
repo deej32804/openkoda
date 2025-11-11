@@ -18,6 +18,14 @@
 
     <artifactId>openkoda</artifactId>
     
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>7.0.0-M3</version>
+        </dependency>
+    </dependencies>
+    
     <profiles>
         <profile>
             <id>development-module</id>
